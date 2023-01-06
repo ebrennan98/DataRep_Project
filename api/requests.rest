@@ -1,0 +1,18 @@
+GET http://localhost:3001/journal_entries
+
+###
+
+POST http://localhost:3001/journal/new
+Content-Type: application/json
+
+{
+    "text": "Order Pizza"
+}
+
+###
+
+DELETE http://localhost:3001/journal/delete/63b7fc4bf6ba89d93144580e
+
+###
+
+PUT http://localhost:3001/journal/complete/63b7b6a0c84b4b02143d285d
